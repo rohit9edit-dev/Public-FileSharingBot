@@ -26,6 +26,9 @@ class Var:
     APP_ID = config("APP_ID", cast=int)
     BOT_TOKEN = config("BOT_TOKEN", default=None)
     JOIN_CHAT = config("JOIN_CHAT", default=0, cast=int)
+
+    FORCE_SUB_CHANNEL = config("FORCE_SUB_CHANNEL", default=0, cast=int)
+
     REDIS_URI = config("REDIS_URI", default=None)
     REDIS_PASS = config("REDIS_PASSWORD", default=None)
     OWNER_ID = config("OWNER_ID", cast=int)
