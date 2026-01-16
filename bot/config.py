@@ -21,14 +21,14 @@ load_dotenv()
 
 
 class Var:
-    STORAGE_CHANNEL = config("STORAGE_CHANNEL", cast=int)
-    API_HASH = config("API_HASH", default=None)
-    APP_ID = config("APP_ID", cast=int)
-    BOT_TOKEN = config("BOT_TOKEN", default=None)
+    STORAGE_CHANNEL = config("-1003621538224", cast=int)
+    API_HASH = config("2f4aa10016925f92bc74be7336c22502", default=None)
+    APP_ID = config("35136171", cast=int)
+    BOT_TOKEN = config("8134715094:AAEnvaOZUWgUnPAXO77Qh8K3voEPVqOO2Gw", default=None)
     JOIN_CHAT = config("JOIN_CHAT", default=0, cast=int)
 
-    FORCE_SUB_CHANNEL = config("FORCE_SUB_CHANNEL", default=0, cast=int)
+    FORCE_SUB_CHANNEL = config("-1003373869483", default=0, cast=int)
 
     REDIS_URI = config("REDIS_URI", default=None)
     REDIS_PASS = config("REDIS_PASSWORD", default=None)
-    OWNER_ID = config("OWNER_ID", cast=int)
+    OWNER_ID = config("6774993771", cast=int)
